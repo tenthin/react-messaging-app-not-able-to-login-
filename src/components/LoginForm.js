@@ -34,8 +34,8 @@ const LoginForm = () => {
                         <button type='submit' className='button'>
                             <span>Start Chatting</span>
                         </button>
-
                     </div>
+                    <h2 className='error'>{error}</h2>
                 </form>
             </div>
         </div>
